@@ -1,0 +1,5 @@
+messages:
+  enabled: "&aAuto-pickup enabled."
+  disabled: "&cAuto-pickup disabled."
+  usage: "&eUsage: /autopickup [on|off]"
+

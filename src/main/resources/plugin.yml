@@ -1,0 +1,8 @@
+name: AutoPickup
+version: '${project.version}'
+main: org.hyperburger.autopickup.AutoPickup
+api-version: 1.19
+commands:
+  autopickup:
+    aliases:
+      -
