@@ -31,7 +31,7 @@ public class AutoPickupCommand implements CommandExecutor {
         Player player = (Player) sender;
         if (player.hasPermission("autopick.command")) {
             if (args.length == 0) {
-                // Toggle auto-replant for the player
+                // Toggle auto-pickup for the player
                 boolean enabled = !configManager.isAutoPickupEnabled(player);
                 configManager.setAutoPickupEnabled(player, enabled);
                 player.sendMessage(enabled ? configManager.getEnabledMessage() : configManager.getDisabledMessage());
